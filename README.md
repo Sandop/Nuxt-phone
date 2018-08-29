@@ -24,7 +24,7 @@ For detailed explanation on how things work, checkout the [Nuxt.js docs](https:/
 ## 项目介绍
 **公司官网，项目中整合 vue + nuxt + axios + vuex + vue-router (nuxt 自带 vuex 和 vue-router)，一个基于 Nuxt 的服务器端渲染 Demo**
 
-### [项目线上地址](http://www.visney.cn/)
+### [项目线上地址](http://www.m.visney.cn/)
 
 
 ## 一、项目实战开始
@@ -512,7 +512,7 @@ http {
 }
 ```
 
-##/3、 启动pm2守护
+### 3、 启动pm2守护
 
 PC端根目录移动端根目录下分别启动
 **pm2 start process.json**
