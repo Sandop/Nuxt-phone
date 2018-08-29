@@ -24,7 +24,7 @@ For detailed explanation on how things work, checkout the [Nuxt.js docs](https:/
 ## 项目介绍
 **项目中整合 vue + nuxt + axios + vuex + vue-router (nuxt 自带 vuex 和 vue-router)，一个基于 Nuxt 的服务器端渲染 Demo**
 
-**由于项目是官网，所以有大量的图片、视频资源，所以`assets`文件比较大**
+**由于项目是官网，有大量的图片、视频资源，所以`assets`文件比较大**
 
 ### [项目线上地址](http://m.visney.cn/)
 
