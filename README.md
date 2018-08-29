@@ -26,7 +26,8 @@ For detailed explanation on how things work, checkout the [Nuxt.js docs](https:/
 
 **由于项目是官网，有大量的图片、视频资源，所以`assets`文件比较大**
 
-### [项目线上地址](http://m.visney.cn/)
+### [PC端项目线上地址](http://www.visney.cn/)
+### [移动端端项目线上地址](http://m.visney.cn/)
 
 
 ## 一、项目实战开始
