@@ -22,7 +22,7 @@ $ npm run generate
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
 ## 项目介绍
-**公司官网，项目中整合 vue + nuxt + axios + vuex + vue-router (nuxt 自带 vuex 和 vue-router)，一个基于 Nuxt 的服务器端渲染 Demo**
+**项目中整合 vue + nuxt + axios + vuex + vue-router (nuxt 自带 vuex 和 vue-router)，一个基于 Nuxt 的服务器端渲染 Demo**
 **由于是官网，所以有大量的图片、视频资源，所以`assets`文件比较大**
 ### [项目线上地址](http://m.visney.cn/)
 
