@@ -9,7 +9,7 @@
 					</nuxt-link>
 					</div>
 					<div class="products-kind-name">
-					<nuxt-link :to="{name: 'products-prodView-id',params:{id: item.proId},query: {typeId: item.proPositionId,classId: item.proTypeId}}">{{item.proName}}</nuxt-link>
+					<nuxt-link :to="{name: 'products-prodView-id',params:{id: item.proId},query: {typeId: item.proPositionId,classId: item.proTypeId}}"><b>{{item.proName}}</b></nuxt-link>
 					</div>
 					<div class="products-kind-price">
 						￥<span class="price-num">{{item.proPrice}}</span>
@@ -122,6 +122,16 @@
 		color: #979797;
 		white-space:  nowrap;
 		text-overflow:  ellipsis;
+	}
+
+	.products-kind-name a b {
+		display:  block;
+	    overflow: hidden;
+	    width: 100%;
+	    height:  100%;
+		font-weight: normal;
+		text-overflow: ellipsis;
+	    white-space: nowrap;
 	}
 
 	.products-kind-price {

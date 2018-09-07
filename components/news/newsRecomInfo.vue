@@ -19,7 +19,7 @@
                         </div>
                         <div class="recom-info-title-box">
                             <div class="recom-info-title">
-                                <nuxt-link :to="{name: 'news-newsView-id',params:{id:list.articleId},query: {category: list.articleCategoryId}}">{{list.articleName}}</nuxt-link>
+                                <nuxt-link :to="{name: 'news-newsView-id',params:{id:list.articleId},query: {category: list.articleCategoryId}}"><h2>{{list.articleName}}</h2></nuxt-link>
                             </div>
                         </div>
                         <div class="recom-info-deesc" >{{getTxt(list.articleText,index,136,42)}}</div>

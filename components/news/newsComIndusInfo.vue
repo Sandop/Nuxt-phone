@@ -14,7 +14,7 @@
                     <ul>
                         <li class="company-info-list" v-for="(list,index) in companyInfo" :key="list.articleId">
                             <div class="company-info-title">
-                                <nuxt-link :to="{name: 'news-newsView-id',params:{id:list.articleId},query: {category: list.articleCategoryId}}">{{list.articleName}}</nuxt-link>
+                                <nuxt-link :to="{name: 'news-newsView-id',params:{id:list.articleId},query: {category: list.articleCategoryId}}"><h2>{{list.articleName}}</h2></nuxt-link>
                             </div>
                             <div class="company-info-desc">{{getTxt(list.articleText,index,90)}}</div>
                         </li>
@@ -34,7 +34,7 @@
                     <ul>
                         <li class="industry-info-list" v-for="(list,index) in industryInfo" :key="list.articleId">
                             <div class="industry-info-title">
-                                <nuxt-link :to="{name: 'news-newsView-id',params:{id:list.articleId},query: {category: list.articleCategoryId}}">{{list.articleName}}</nuxt-link>
+                                <nuxt-link :to="{name: 'news-newsView-id',params:{id:list.articleId},query: {category: list.articleCategoryId}}"><h2>{{list.articleName}}</h2></nuxt-link>
                             </div>
                             <div class="industry-info-desc">{{getTxt(list.articleText,index,90)}}</div>
                         </li>
@@ -146,7 +146,7 @@
         padding-bottom: 0.707rem;
     }
 
-    .company-info-content ul li:first-child .company-info-title a {
+    .company-info-content ul li:first-child .company-info-title a h2{
         font-family: MicrosoftYaHei-Bold;
         font-weight: bold;
     }
@@ -222,7 +222,7 @@
         padding-bottom: 0.707rem;
     }
 
-    .industry-info-content ul li:first-child .industry-info-title a {
+    .industry-info-content ul li:first-child .industry-info-title a h2{
         font-family: MicrosoftYaHei-Bold;
         font-weight: bold;
     }

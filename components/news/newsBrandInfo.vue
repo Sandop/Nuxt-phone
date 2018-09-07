@@ -18,7 +18,7 @@
                             </nuxt-link>
                         </div>
                         <div class="brand-selection-list-title">
-                            <nuxt-link :to="{name: 'news-newsView-id',params:{id:list.articleId},query: {category: list.articleCategoryId}}">{{list.articleName}}</nuxt-link>
+                            <nuxt-link :to="{name: 'news-newsView-id',params:{id:list.articleId},query: {category: list.articleCategoryId}}"><h2>{{list.articleName}}</h2></nuxt-link>
                         </div>
                         <div class="brand-selection-list-desc">{{getTxt(list.articleText,index,115,32)}}</div>
                     </li>
@@ -130,6 +130,15 @@
         font-size: 0.32rem;
         line-height: 1.467rem;
         color: #22202b;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .brand-selection-list-title a h2{
+        display: block;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
         text-overflow: ellipsis;
         white-space: nowrap;
     }

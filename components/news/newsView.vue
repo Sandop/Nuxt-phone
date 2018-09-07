@@ -3,7 +3,7 @@
         <div class="news-view-box">
             <div class="news-view-details-wrap">
                 <div class="news-view-title-box">
-                    <div class="news-view-title"><p>{{articleData.articleName}}</p></div>
+                    <div class="news-view-title"><h1>{{articleData.articleName}}</h1></div>
                     <div class="news-view-info">
                         <div class="news-view-sort">
                             <span class="news-view-info-title">分类:</span>
@@ -137,6 +137,10 @@
         line-height: 0.6rem;
         text-align: center;
         color: #22202b;
+    }
+
+    .news-view-title h1 {
+        font-weight: bold;
     }
 
     .news-view-info {

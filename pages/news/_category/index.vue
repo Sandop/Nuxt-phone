@@ -22,7 +22,7 @@
 											</div>
 											<div class="news-list-right">
 												<div class="news-list-title">
-													<nuxt-link :to="{name:'news-newsView-id',params:{id:list.articleId},query: {category: list.articleCategoryId}}">{{list.articleName}}</nuxt-link>
+													<nuxt-link :to="{name:'news-newsView-id',params:{id:list.articleId},query: {category: list.articleCategoryId}}"><h2>{{list.articleName}}</h2></nuxt-link>
 												</div>
 												<div class="news-list-desc">{{getTxt(list.articleText)}}</div>
 												<div class="news-list-time">
@@ -241,6 +241,16 @@
 		width: 100%;
 		height:  100%;
 		color: #22202b;
+		text-overflow:  ellipsis;
+		white-space:  nowrap;
+	}
+
+	.news-list-title a h2{
+		display:  block;
+		overflow:  hidden;
+		width: 100%;
+		height:  100%;
+		font-weight: bold;
 		text-overflow:  ellipsis;
 		white-space:  nowrap;
 	}
