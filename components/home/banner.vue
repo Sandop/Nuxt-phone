@@ -165,11 +165,9 @@
 	}
 
 	.b-c-part a img {
-		position:  absolute;
-	    top: 50%;
-	    left: 50%;
 	    overflow:  hidden;
-		transform: translate(-50%,-50%) scale(0.6);
+		width: 100%;
+		height: 100%;
 	}
 
 	.i-b-btn {

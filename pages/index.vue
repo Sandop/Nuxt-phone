@@ -99,7 +99,7 @@
       //首页head信息
       let metaData = await axios(`${store.state.wordpressAPI}/NavigationMeta/get/1`);
       //banner数据动态获取
-      let banner = await axios(`${store.state.wordpressAPI}/banner/selectAllByTpye/1`);
+      let banner = await axios(`${store.state.wordpressAPI}/banner/selectAllByTpye/11`);
       //首页新闻信息
       let indexFirstNewsList1 = await axios(`${store.state.wordpressAPI}/article/getRecommend/1`);
 			let indexFirstNewsList2 = await axios(`${store.state.wordpressAPI}/article/getRecommend/2`);
