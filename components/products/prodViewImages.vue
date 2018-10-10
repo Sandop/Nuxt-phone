@@ -5,7 +5,7 @@
   <div class="products-pic-panel">
     <div class="products-pic-all-box" id="PicZoom">
       <div class="products-pic-show-box" id="BigPic">
-        <div class="middle-box" :style="{width: `${boxWidth}%`, height: `${boxHeight}%`}" @mouseenter="isShow = true" @mouseleave="isShow = false" @mousemove="move($event)">
+        <div class="middle-box" :style="{width: `${boxWidth}%`, height: `${boxHeight}%`}">
           <img :src="middleImage[curIndex].proImgSrc" :alt="middleImage[curIndex].proImgAlt">
           <div class="move" :style="{width: `${this.glassWidth}px`,height: `${this.glassHeight}px`,top: `${this.glassTop}px`,left: `${this.glassLeft}px`}" v-if="isShow"></div>
         </div>
